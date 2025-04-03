@@ -9,7 +9,7 @@ try {
 const nextConfig = {
   output: 'export',
   // Ajustez le basePath si votre site sera hébergé dans un sous-dossier
-  // basePath: '/nom-du-repo',
+  basePath: '/PORTFOLIO-KEVIN',
   images: {
     unoptimized: true,
   },
