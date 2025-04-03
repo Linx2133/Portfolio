@@ -7,6 +7,12 @@ try {
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  // Ajustez le basePath si votre site sera hébergé dans un sous-dossier
+  // basePath: '/nom-du-repo',
+  images: {
+    unoptimized: true,
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -22,6 +28,7 @@ const nextConfig = {
     parallelServerCompiles: true,
   },
 }
+
 
 mergeConfig(nextConfig, userConfig)
 
