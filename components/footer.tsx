@@ -46,7 +46,6 @@ export function Footer() {
                       <Linkedin className="h-5 w-5" href="https://www.linkedin.com/in/kévin-roufaud-24b103244/"/>
                     </Button>
             </a>
-
           </div>
 
           <Button variant="outline" size="icon" onClick={scrollToTop} aria-label="Retour en haut">
