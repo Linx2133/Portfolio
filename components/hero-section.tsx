@@ -41,22 +41,32 @@ export function HeroSection() {
         </Button>
       </div>
       <div className="flex gap-4 mt-8">
-        <Button
-          variant="ghost"
-          size="icon"
+      <a
+        href="https://github.com/Linx2133"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Github"
+      >
+        <Button variant="ghost" size="icon">
+          <Github className="h-5 w-5" />
+        </Button>
+      </a>
+        <a
+          href="https://github.com/Linx2133"
+          target="_blank"
+          rel="noopener noreferrer"
           aria-label="Github"
-          className="text-primary hover:text-primary/90 hover:bg-primary/10"
         >
-          <Github className="h-5 w-5" href="https://github.com/Linx2133" />
-        </Button>
         <Button
-          variant="ghost"
-          size="icon"
-          aria-label="LinkedIn"
-          className="text-primary hover:text-primary/90 hover:bg-primary/10"
-        >
-          <Linkedin className="h-5 w-5" href="https://www.linkedin.com/in/kévin-roufaud-24b103244/"/>
-        </Button>
+                  variant="ghost"
+                  size="icon"
+                  aria-label="LinkedIn"
+                  className="text-primary hover:text-primary/90 hover:bg-primary/10"
+                >
+                  <Linkedin className="h-5 w-5" href="https://www.linkedin.com/in/kévin-roufaud-24b103244/"/>
+                </Button>
+        </a>
+
       </div>
       <Button
         variant="ghost"
