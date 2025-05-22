@@ -21,15 +21,32 @@ export function Footer() {
           </div>
 
           <div className="flex gap-4 mb-6 md:mb-0">
-            <Button variant="ghost" size="icon" aria-label="Github">
-              <Github className="h-5 w-5" href="https://github.com/Linx2133"/>
+          <a
+            href="https://github.com/Linx2133"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Github"
+          >
+            <Button variant="ghost" size="icon">
+              <Github className="h-5 w-5" />
             </Button>
-            <Button variant="ghost" size="icon" aria-label="LinkedIn">
-              <Linkedin className="h-5 w-5" href="https://www.linkedin.com/in/kévin-roufaud-24b103244/"/>
-            </Button>
-            <Button variant="ghost" size="icon" aria-label="Email">
-              <Mail className="h-5 w-5" />
-            </Button>
+          </a>
+            <a
+              href="https://github.com/Linx2133"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Github"
+            >
+            <Button
+                      variant="ghost"
+                      size="icon"
+                      aria-label="LinkedIn"
+                      className="text-primary hover:text-primary/90 hover:bg-primary/10"
+                    >
+                      <Linkedin className="h-5 w-5" href="https://www.linkedin.com/in/kévin-roufaud-24b103244/"/>
+                    </Button>
+            </a>
+
           </div>
 
           <Button variant="outline" size="icon" onClick={scrollToTop} aria-label="Retour en haut">
