@@ -22,10 +22,10 @@ export function Footer() {
 
           <div className="flex gap-4 mb-6 md:mb-0">
             <Button variant="ghost" size="icon" aria-label="Github">
-              <Github className="h-5 w-5" />
+              <Github className="h-5 w-5" href="https://github.com/Linx2133"/>
             </Button>
             <Button variant="ghost" size="icon" aria-label="LinkedIn">
-              <Linkedin className="h-5 w-5" href="https://www.linkedin.com/in/k%C3%A9vin-roufaud-24b103244/"/>
+              <Linkedin className="h-5 w-5" href="https://www.linkedin.com/in/kévin-roufaud-24b103244/"/>
             </Button>
             <Button variant="ghost" size="icon" aria-label="Email">
               <Mail className="h-5 w-5" />

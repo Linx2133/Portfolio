@@ -9,7 +9,7 @@ export function AboutSection() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="flex justify-center">
             <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-primary/20">
-              <Image src="/placeholder.svg?height=256&width=256" alt="Portrait" fill className="object-cover" />
+              <Image src="/1747035525637.jfif" alt="Portrait" fill className="object-cover" />
             </div>
           </div>
           <Card className="border border-primary/20">

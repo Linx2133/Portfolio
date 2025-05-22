@@ -33,9 +33,9 @@ export function HeroSection() {
         Je suis développeur Web/Desktop/Mobile, Actuellement en formation en alternance à La Fournée Dorée
       </p>
       <div className="flex gap-4 mt-8">
-        <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
+        {/* <Button asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
           <Link href="#contact">Me contacter</Link>
-        </Button>
+        </Button> */}
         <Button variant="outline" asChild className="border-primary text-primary hover:bg-primary/10">
           <Link href="#projects">Voir mes projets</Link>
         </Button>
@@ -47,7 +47,7 @@ export function HeroSection() {
           aria-label="Github"
           className="text-primary hover:text-primary/90 hover:bg-primary/10"
         >
-          <Github className="h-5 w-5" />
+          <Github className="h-5 w-5" href="https://github.com/Linx2133" />
         </Button>
         <Button
           variant="ghost"
@@ -55,15 +55,7 @@ export function HeroSection() {
           aria-label="LinkedIn"
           className="text-primary hover:text-primary/90 hover:bg-primary/10"
         >
-          <Linkedin className="h-5 w-5" href="https://www.linkedin.com/in/k%C3%A9vin-roufaud-24b103244/"/>
-        </Button>
-        <Button
-          variant="ghost"
-          size="icon"
-          aria-label="Email"
-          className="text-primary hover:text-primary/90 hover:bg-primary/10"
-        >
-          <Mail className="h-5 w-5" />
+          <Linkedin className="h-5 w-5" href="https://www.linkedin.com/in/kévin-roufaud-24b103244/"/>
         </Button>
       </div>
       <Button
