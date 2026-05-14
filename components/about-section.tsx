@@ -23,7 +23,7 @@ export function AboutSection() {
               </p>
               <p>
                 En dehors du code, j'aime le sport, les jeux vidéos et les sciences humaines et sociales. J'adore comprendre et analyser ce que je fais.
-                Chercher l'optimisation est mon principal objectif, tout en tenant compte les problèmatiques humaines.
+                Chercher l'optimisation est mon principal objectif, tout en tenant compte des problèmatiques humaines.
               </p>
             </CardContent>
           </Card>

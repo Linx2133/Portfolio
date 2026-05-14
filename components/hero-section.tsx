@@ -52,10 +52,10 @@ export function HeroSection() {
         </Button>
       </a>
         <a
-          href="https://github.com/Linx2133"
+          href="https://www.linkedin.com/in/kévin-roufaud-24b103244/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Github"
+          aria-label="LinkedIn"
         >
         <Button
                   variant="ghost"
