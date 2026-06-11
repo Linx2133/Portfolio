@@ -16,7 +16,7 @@ export function ProjectsSection() {
     {
       title: "Projet Controle Balance",
       description: "Création d'une application desktop permettant de faire un controle des balances sur ligne de production, plus gestion des balances sur intranet",
-      image: "./Capturecontrolebal.png",
+      image: "./public/Capturecontrolebal.png",
       tags: ["C#", "MySQL", "PHP", "JS"],
     },
   ]
