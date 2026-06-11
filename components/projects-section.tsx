@@ -16,7 +16,7 @@ export function ProjectsSection() {
     {
       title: "Projet Controle Balance",
       description: "Création d'une application desktop permettant de faire un controle des balances sur ligne de production, plus gestion des balances sur intranet",
-      image: "/placeholder.svg?height=200&width=400",
+      image: "./Capturecontrolebal.PNG",
       tags: ["C#", "MySQL", "PHP", "JS"],
     },
   ]
@@ -29,7 +29,7 @@ export function ProjectsSection() {
           {projects.map((project, index) => (
             <Card key={index} className="overflow-hidden">
               <div className="relative h-48 w-full">
-                <Image src={project.image || "/placeholder.svg"} alt={project.title} fill className="object-cover" />
+                <Image src={project.image || "./placeholder.svg"} alt={project.title} fill className="object-cover" />
               </div>
               <CardHeader>
                 <CardTitle>{project.title}</CardTitle>
